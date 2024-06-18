@@ -1,3 +1,4 @@
+<!-- <?php GoogleReferer::dwt_set_google_referer(get_the_ID(),$_SERVER['PHP_REFERER']) ?> -->
 <?php if (have_posts()): ?>
     <?php while (have_posts()): the_post(); 
      PostView::dwt_set_post_view(get_the_ID( ));
