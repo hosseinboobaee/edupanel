@@ -1,6 +1,7 @@
 <?php if (have_posts()): ?>
-    <?php while (have_posts()):
-        the_post(); ?>
+    <?php while (have_posts()): the_post(); 
+     PostView::dwt_set_post_view(get_the_ID( ));
+     ?>
         <div class="article_detail_wrapss single_article_wrap format-standard">
             <div class="article_body_wrap">
 
