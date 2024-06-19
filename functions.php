@@ -7,3 +7,4 @@ include_once '_inc/meta-box/meta_box.php';
 include_once 'helper-class/PostView.php';
 include_once 'helper-class/ReadStimateTime.php';
 include_once 'helper-class/GoogleReferer.php';
+include_once '_inc/widgets/widget.php';
