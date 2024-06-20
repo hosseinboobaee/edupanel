@@ -1,5 +1,5 @@
 <?php
-function register_widgets(){
+function register_sidebar_widgets(){
     register_sidebar(
         [
             'name'=>'my_theme_sidebra',
@@ -12,4 +12,4 @@ function register_widgets(){
         ]
         );
 }
-add_action( 'widgets_init', 'register_widgets');
+add_action( 'widgets_init', 'register_sidebar_widgets');
