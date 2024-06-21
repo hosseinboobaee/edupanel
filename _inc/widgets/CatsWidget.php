@@ -20,7 +20,7 @@ class CatsWidget extends WP_Widget{
         return '';
     }
     function form($instance){
-        return '';
+       // $title = !empty($instance['title']) ? $instance['title']: 'عنوان پیش فرض( برای ویجت خود لطفا یک نام انتخاب نمایید)';
     }
 }
 
