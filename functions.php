@@ -11,3 +11,4 @@ include_once 'helper-class/TimeModify.php';
 include_once '_inc/widgets/sidebar-widget.php';
 include_once '_inc/widgets/HotPostWidget.php';
 include_once '_inc/widgets/CatsWidget.php';
+include_once 'class/breadcrumb/Breadcrumb.php';

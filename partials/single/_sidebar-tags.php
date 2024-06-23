@@ -1,11 +1,13 @@
-	<!-- Tags Cloud -->
-    <div class="single_widgets widget_tags">
-								<h4 class="title">تگ</h4>
-								<ul>
-									<li><a href="#">سبک زندگی</a></li>
-									<li><a href="#">کنکور 1399</a></li>
-									<li><a href="#">تدریس</a></li>
-									<li><a href="#">برندسازی</a></li>
-									<li><a href="#">موزیک</a></li>
-								</ul>
-							</div>
+<!-- Tags Cloud -->
+<div class="single_widgets widget_tags">
+    <h4 class="title">تگ</h4>
+    <?php if ( function_exists( 'wp_tag_cloud' ) ) : ?>
+    <ul>
+        <?php $tag_clouds = wp_tag_cloud( 'smallest=8&largest=14&format=array&unit = px&show_count=1' );
+        foreach ($tag_clouds as $tag) echo '<li>'.$tag.'</li>';
+        ?>
+    </ul>
+    <?php else: ?>
+    <div class="alert alert-warning">تگی پیدا نشد!!!</div>
+    <?php endif;?>
+</div>
