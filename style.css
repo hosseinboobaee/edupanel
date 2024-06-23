@@ -42,7 +42,7 @@ Text Domain: develop-wp-theme
 @import url(assets/plugins/line-icons.css);
 @import url(assets/plugins/iconfont.css);
 @import url(assets/plugins/font-awesome.css);
-@import url(plugins/flaticon.css);
+@import url(assets/plugins/flaticon.css);
 
 /*------------------------------------
 	Fonts
@@ -827,11 +827,11 @@ div[data-overlay] p {
   animation: spinner-border 0.75s linear infinite;
 }
 
-.spinner-border-sm {
+/* .spinner-border-sm {
   width: $spinner-width-sm;
   height: $spinner-height-sm;
   border-width: $spinner-border-width-sm;
-}
+} */
 .sr-only {
   position: absolute;
   width: 1px;

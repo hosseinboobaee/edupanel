@@ -1,7 +1,7 @@
 
 <!-- ============================ vip Start ================================== -->
 <section class="bg-light">
-    <div class="container">-->
+    <div class="container">
         <!-- ============================ Page Title Start================================== -->
         <div class="page-title mb-5">
             <div class="row">

@@ -32,7 +32,7 @@ $the_query = new WP_Query($args);
 
 
 					<?php if (!empty(get_post_meta(get_the_ID(), '_dwt_post_cat',true))): ?>
-					<div class="topic_cat bg-warning text-white"> <?php echo get_the_category_by_ID( )?>
+					<!-- اینجا یک خط حذف شده -->
 					<?php else: ?>
 						<div class="topic_cat bg-danger text-white">دسته بندی نشده</div>
 						<?php endif; ?>
